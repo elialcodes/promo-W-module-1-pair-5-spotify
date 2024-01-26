@@ -19,7 +19,6 @@
   height: auto;
   position: absolute;
   left: 20px;
-  
 }
 .burguer-menu {
   width: 10%;
@@ -35,18 +34,34 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 20px;
 }
 .section-1 h1 {
-  font-size: 50px;
-  padding: 10px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .section-1 h3 {
-  font-size: 25px;
-  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: rgb(37, 139, 37);
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 15px 0;
+}
+.terminos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 .section-2 {
-background-color: antiquewhite;
-height: 60%
+  background-color: antiquewhite;
+  height: 60%;
 }
 .footer {
   background-color: black;
