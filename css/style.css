@@ -7,17 +7,48 @@
   display: flex;
   background-color: black;
   height: 60px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 30%;
+  position: sticky;
+  top: 0;
+  align-content: center;
 }
 .logo-spotify {
   width: 30%;
   height: auto;
+  position: absolute;
+  left: 20px;
   
 }
 .burguer-menu {
   width: 10%;
   height: auto;
- 
+  position: absolute;
+  right: 20px;
+}
+
+.section-1 {
+  background-color: dodgerblue;
+  height: 70%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-1 h1 {
+  font-size: 50px;
+  padding: 10px;
+}
+.section-1 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.section-2 {
+background-color: antiquewhite;
+height: 60%
+}
+.footer {
+  background-color: black;
+  height: 120px;
 }
