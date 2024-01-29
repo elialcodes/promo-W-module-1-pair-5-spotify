@@ -44,7 +44,7 @@
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.button {
+.ver-planes {
   background-color: rgb(37, 139, 37);
   width: 350px;
   height: 40px;
@@ -54,6 +54,9 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 15px 0;
+  padding-top: 12px;
+  text-align: center;
+  text-decoration: none;
 }
 .terminos {
   font-family: Arial, Helvetica, sans-serif;
@@ -63,6 +66,12 @@
   background-color: antiquewhite;
   height: 60%;
 }
+.section-2 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
 .footer {
   background-color: black;
   height: 120px;
