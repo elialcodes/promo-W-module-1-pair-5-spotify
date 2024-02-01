@@ -1,36 +1,35 @@
-
 .section-1 {
-    background-color: dodgerblue;
-    height: 70%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
-  }
-  .section-1 h1 {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .section-1 h3 {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .ver-planes {
-    background-color: rgb(37, 139, 37);
-    width: 350px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin: 15px 0;
-    padding-top: 12px;
-    text-align: center;
-    text-decoration: none;
-  }
-  .terminos {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-  }
+  background-color: dodgerblue;
+  height: 70%;
+  color: $colorWhite;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.section-1 h1 {
+  font-size: 40px;
+  font-family: $fontFamily;
+}
+.section-1 h3 {
+  font-size: 20px;
+  font-family: $fontFamily;
+}
+.ver-planes {
+  background-color: rgb(37, 139, 37);
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: $colorWhite;
+  font-family: $fontFamily;
+  font-size: 12px;
+  margin: 15px 0;
+  padding-top: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+.terminos {
+  font-family: $fontFamily;
+  font-size: 12px;
+}

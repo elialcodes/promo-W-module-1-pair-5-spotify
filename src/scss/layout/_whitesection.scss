@@ -1,26 +1,26 @@
 .section-2 {
-    background-color: white;
-    height: 60%;
-  }
-  .section-2 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 25px;
-  }
-  .article {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 30px;
-    padding: 0 10px;
-  }
-  .figure {
-    width: 25%;
-  }
-  .figure img {
-    width: 100%;
-  }
-  .texto-icono {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  background-color: $colorWhite;
+  height: 60%;
+}
+.section-2 h2 {
+  font-family: $fontFamily;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.article {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+.figure {
+  width: 25%;
+}
+.figure img {
+  width: 100%;
+}
+.texto-icono {
+  font-family: $fontFamily;
+}
