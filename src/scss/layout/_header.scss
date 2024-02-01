@@ -1,5 +1,23 @@
-.page__header {
+.header {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  background-color: black;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 30%;
+  position: sticky;
+  top: 0;
+  align-content: center;
+}
+.logo-spotify {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  left: 20px;
+}
+.burguer-menu {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 20px;
 }

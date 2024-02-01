@@ -1,105 +1,12 @@
-/*@import 'core/variables';
+
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
 @import 'layout/header';
+@import 'layout/bluesection';
+@import 'layout/whitesection';
 @import 'layout/footer';
-@import 'pages/index';
 
-*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.header {
-  display: flex;
-  background-color: black;
-  height: 60px;
-  align-items: center;
-  justify-content: center;
-  gap: 30%;
-  position: sticky;
-  top: 0;
-  align-content: center;
-}
-.logo-spotify {
-  width: 30%;
-  height: auto;
-  position: absolute;
-  left: 20px;
-}
-.burguer-menu {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  right: 20px;
-}
 
-.section-1 {
-  background-color: dodgerblue;
-  height: 70%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
-}
-.section-1 h1 {
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.section-1 h3 {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.ver-planes {
-  background-color: rgb(37, 139, 37);
-  width: 350px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  margin: 15px 0;
-  padding-top: 12px;
-  text-align: center;
-  text-decoration: none;
-}
-.terminos {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-.section-2 {
-  background-color: white;
-  height: 60%;
-}
-.section-2 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
-.article {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 30px;
-  padding: 0 10px;
-}
-.figure {
-  width: 25%;
-}
-.figure img {
-  width: 100%;
-}
-.texto-icono {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.footer {
-  background-color: black;
-  height: 120px;
-}
+
+
+
