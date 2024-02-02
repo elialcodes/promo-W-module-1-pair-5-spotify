@@ -10,14 +10,25 @@
   align-content: center;
 }
 .logo-spotify {
-  width: 30%;
+  width: 15%;
   height: auto;
   position: absolute;
   left: 20px;
 }
+.logo-spotify img {
+  width: 100%;
+}
 .burguer-menu {
-  width: 10%;
+  width: 5%;
   height: auto;
   position: absolute;
   right: 20px;
+}
+.burguer-menu img {
+width: 100%;
+}
+@media (min-width: 480px) {
+  .logo-spotify {
+
+  }
 }
